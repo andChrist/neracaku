@@ -1,0 +1,86 @@
+/* 
+    Document   : profil_style
+    Created on : 14-Oct-2013, 10:58:56
+    Author     : user
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+/*Ini baru anjing*/
+
+/*Ini punya saya*/
+*
+{
+    font-family: 'Segoe UI';
+    margin: 0px;
+}
+
+.kotak_wrapper{
+    width: 50%;
+}
+
+#kotak_header{
+    /*background-color: #1ab331;*/
+    position: relative;
+    height: 42px;
+    color: white;
+}
+
+.kotak_body{
+    background-color: #f9f9fb;
+    /*height: 210px;*/
+}
+
+#kotak_text{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+/*Ini punya andreas*/
+.profile_header
+{
+    background-color: #3f7bfb;
+    display: block;
+    color: white;
+}
+
+.profile_header img
+{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width : 150px;
+}
+
+.profile_header_name
+{
+    float: right;
+    width: 750px;
+    font-size: 24pt;
+    margin-top: 35px;
+}
+
+#button_profil_wrapper
+{
+	width:60%;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 50px;
+}
+
+.button_profil
+{
+    height:100%;
+    font-size: 48px;
+    color: white;
+    border: none;	
+    text-decoration: none;
+    background-color: cyan;
+}
+/*Selesai yang barunya*/
+

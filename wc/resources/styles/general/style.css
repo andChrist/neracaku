@@ -1,0 +1,207 @@
+/* 
+    Document   : style
+    Created on : 02 Okt 13, 20:10:35
+    Author     : Imagica
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+*
+{
+    font-family: 'Segoe UI';
+    margin: 0px;
+}
+
+body
+{
+    position:relative;
+    height: 100%;
+}
+
+/*Main Structure*/
+
+#wrapper, #header_wrapper, #navi_wrapper
+{
+    max-width: 960px;
+    min-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header
+{
+    background-color: #13a225;
+    position: relative;
+    height: 42px;
+    width: 100%;
+    color: white;
+}
+
+#header_logo
+{
+    position: absolute;
+    left: 0px;
+    top:3px;
+}
+
+#header_user
+{
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    margin-right: 6px;
+    
+    font-size: 16pt;
+}
+
+#header_user a
+{
+    font-size: 10pt;
+}
+
+#navi
+{
+    position: relative;
+    width: 100%;
+    background-color: #60a513;
+}
+
+.navi_item
+{
+    display: inline-block;
+    width: 20%;
+    height: 42px;
+    margin: 0px;
+    margin-left: -4px;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.active
+{
+    background: white;
+    color: black;
+}
+
+.inactive
+{
+    background-color: #60a513;
+    color: white;    
+}
+
+#footer
+{
+    position: fixed;
+    bottom: 0px;
+    height: 20px;
+    background-color: #e7eced;
+}
+
+.button
+{
+    width: auto;
+    font-size: 24px;
+    color: white;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 16px;
+    padding-right:16px;
+    margin-top: 12px;
+    text-decoration: none;
+}
+
+.red
+{
+    background: #ec3370;
+}
+
+.blue
+{
+    background: #4c8cec;
+}
+
+/*Login and Sign Up*/
+
+#product_info
+{
+    padding: 32px;
+    margin-top: 84px;
+    margin-right: 355px ;
+}
+
+#product_info p
+{
+    font-size: 14pt;  
+    line-height: 28px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+#product_info h2
+{    
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+#form
+{
+    width: 335px;
+    float: right;
+    margin-top: 12px;
+    margin-right: 32px;
+}
+
+.signup
+{
+    margin-top: 0px;
+}
+
+#login_box
+{    
+    background: #f9f9fb;
+}
+
+#login_form
+{    
+    padding: 16px;
+}
+
+.form_title
+{
+    font-size: 24pt;
+}
+
+label, input
+{
+    font-size: 14pt;
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+input.mini
+{
+    display: inline-block;
+    width: 20px;
+}
+
+.promotion_item
+{
+    display: block;
+    width: 640px;
+    margin-top: 12px;
+}
+
+.promotion_item img
+{
+    width: 250px;
+}
+
+.promo
+{
+    float: right;
+    width: 360px;
+    font-size: 24pt;
+    margin-top: -10px;
+}

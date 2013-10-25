@@ -1,0 +1,60 @@
+/* 
+    Document   : transaksi_list_style
+    Created on : 14-Oct-2013, 21:40:00
+    Author     : user
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+*
+{
+    font-family: 'Segoe UI';
+    margin: 0px;
+}
+
+#transaksi_list_header{
+    width:  100%;
+    height: 70px;
+}
+
+#transaksi_list_filter{
+    background-color: #deae00;
+    height: 25px;
+    color: white;
+}
+
+#transaksi_list_header_title{
+    float: left;
+    font-size: 200%;
+    padding-top: 10px;
+}
+
+#transaksi_list_header_total{
+    float: right;
+    font-size: 150%;
+    padding-top: 20px;
+}
+
+#transaksi_list_table
+{
+	float:left;
+	text-align:center;
+	border-collapse:collapse;
+}
+
+.transaksi_list_table_judul
+{
+	background-color: #3f7bfb;
+        color: white;
+        height: 42px;
+}
+
+.transaksi_list_table_isi
+{
+	border-bottom:1px solid cyan;
+        height: 42px;
+}

@@ -1,0 +1,32 @@
+*
+{
+    font-family: 'Segoe UI';
+    margin: 0px;
+}
+
+#header_pesan
+{
+	margin-top:20px;
+	text-align:center;
+	border-collapse:collapse;
+}
+
+#header_judul
+{
+/*	background-color: #0000ff;
+    color: white;*/
+        background-color: #3f7bfb;
+        color: white;
+        height: 42px;
+}
+
+.transaksi_list_table_isi
+{
+	border-bottom:1px solid cyan;
+        height: 42px;
+}
+
+.belum_baca
+{
+	font-weight:700;
+}

@@ -1,0 +1,70 @@
+#content{
+    font-size: 26px;
+}
+#listbarangwrapper{
+    float: left;
+    width: 35%;
+    border-right: 2px solid grey;
+}
+#listbarang_header{
+    background-color: #deaf01;
+    color: #ffffff;
+    padding: 4px 0px 4px 10px;
+}
+.listbarang{
+    overflow: auto;
+    height: 70%;
+}
+.barang{
+    margin: 10px 10px;
+    float: left;
+}
+.barang img{
+    width: 130px;
+    height: 130px;
+}
+.barang .namabarang{
+    background-color: #11a125;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+.barang .tambah{
+    background-color: #2c40dd;
+}
+.barang:hover{
+    cursor: pointer;
+}
+#detilbarangwrapper{
+    float: left;
+    width: 60%;
+}
+#detilbarang_header{
+    padding: 4px 0px 4px 10px;
+}
+#detilbarang_title{
+    float: left;
+}
+#ubah{
+    float: right;
+    background-color: #14e3db;
+    color: #ffffff;
+    padding: 3px 8px;
+}
+#ubah:hover{
+    cursor: pointer;
+}
+#detil{
+    margin: 15px;
+}
+#detil img{
+    width: 150px;
+    float: left;
+    margin: 10px;
+}
+#deskripsi{
+    
+}
+.clear{
+    clear: both;
+}

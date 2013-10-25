@@ -1,0 +1,117 @@
+/* 
+    Document   : produk_list_style
+    Created on : 15-Oct-2013, 11:20:47
+    Author     : user
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#detail_produk_wrapper{
+    padding: 20px;
+}
+
+#wrapper_image{
+    float: left;
+}
+
+#wrapper_detail{
+    float: right;
+}
+
+#body_list_produk{
+    float: left;
+    width: 40%;
+}
+
+#body_detail_produk{
+    float: right;
+    width: 60%;
+}
+
+#produk_list_ubah_button
+{
+
+    float: right;
+    font-size: 24px;
+    color: white;
+    border: none;	
+    text-decoration: none;
+    background-color: cyan;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+
+#body_detail_produk_header{
+    float:left;
+    height: 42px;
+    width: 100%;
+}
+
+#header_detail
+{
+    padding-left: 10px;
+}
+
+#header_detail img
+{
+    width:250px;
+    height:200px;
+}
+
+.gambar img{
+    width:100px;
+    height:100px;
+}
+
+#home
+{
+        padding-left: 15%;
+	display:table;
+}
+
+.home_picture
+{ 
+	display: table-row;
+}
+
+.home_picture img
+{
+	margin-top: 10px;
+	margin-right: 50px; 
+    width: 100px;
+	height: 100px;
+}
+
+.home_picturedua
+{ 
+	display: table-row;
+}
+
+.home_picturedua img
+{
+	margin-top: 40px;
+	margin-right: 50px; 
+    width: 100px;
+	height: 100px;
+}
+
+#header_home
+{
+	margin-top: 1px;
+    background-color: #13a225;
+    position: absolute;
+    height: 25px;
+    width: 100px;
+    color: white;
+}
+
+#home_info
+{
+	display: table-cell;
+}

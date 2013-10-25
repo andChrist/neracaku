@@ -1,0 +1,40 @@
+#content{
+    font-size: 26px;
+}
+#contentheader{
+    padding: 20px 3px 3px 3px;
+}
+#userlist #leftpane{
+    float: left;
+    width: 35%;
+}
+#cari input{
+    width: auto;
+    display: inline;
+}
+#filter input{
+    width: auto;
+    display: inline;
+}
+#crater{
+    float: left;
+    width: 10px;
+}
+#userlist #rightpane{
+    float: left;
+    width: 60%;
+}
+#rightpane table{
+    width: 100%;
+    font-size: 20px;
+}
+#rightpane table thead{
+    background-color: #83cffc;
+}
+#rightpane tbody tr{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+#rightpane table tr td{
+    text-align: center;
+}

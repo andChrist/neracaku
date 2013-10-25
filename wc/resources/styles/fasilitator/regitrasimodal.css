@@ -1,0 +1,29 @@
+#contentheader{
+    font-size: 26px;
+    padding: 10px;
+}
+#registration{
+    overflow: auto;
+    height: 60%;
+    width: 100%;
+}
+#regtable{
+    width: 100%;
+}
+#regtable tbody tr:first-child{
+    background-color: #84adff;
+}
+#regtable tbody tr:first-child:hover{
+    background-color: red;
+    cursor: pointer;
+}
+#regtable tbody tr:last-child{
+    border-bottom: 1px solid black;
+}
+#regtable tbody tr td{
+    text-align: center;
+}
+#regtable tr td, #regtable tr th{
+    border-top: 1px solid black;
+    padding: 3px;
+}

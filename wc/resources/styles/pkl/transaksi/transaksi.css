@@ -1,0 +1,126 @@
+#content{
+    font-size: 26px;
+    background-color: #f9f9fb;
+}
+#produk{
+    width: 45%;
+    float: left;
+    margin-right: 10px;
+}
+#produkheader{
+    padding: 3px;
+    background-color: #1441a8;
+}
+#produkfilter{
+    padding: 3px;
+}
+#produkfilter input{
+    display: inline;
+    width: 60%;
+}
+.listbarang{
+    border: 1px solid grey;
+    height: 70%;
+    overflow: auto;
+}
+.overview{
+    width: 100%;
+}
+.barang{
+    border-bottom: 1px solid black;
+    padding: 8px 15px;
+    width: 100%;
+}
+.barangimg img{
+    width: 50px;
+    height: 50px;
+}
+.deskripsi{
+    vertical-align: top;
+    font-size: 36px;
+}
+#transaksi{
+    width: 45%;
+    float: left;
+}
+#transaksiheader{
+    margin-top: 5px;
+}
+#transaksiheadertitle{
+    font-size: 40px;
+    padding: 5px;
+}
+#transaksiheadertgl{
+    float: right;
+}
+.listbelian{
+    margin-top: 15px;
+    overflow: auto;
+    height: 70%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.barangbelian{
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 8px 15px;
+    height: 80px;
+}
+.slider{
+    float: right;
+    width: 50px;
+    text-align: center;
+    margin-right: 20px;
+    border: 1px solid grey;
+}
+.slider .add{
+    background-color: #98a2bb;    
+}
+.slider .substract{
+    background-color: #98a2bb;    
+}
+.slider .add:hover{
+    cursor: pointer;   
+}
+.slider .substract:hover{
+    cursor: pointer;   
+}
+.close{
+    float: right;
+    margin-top: -10px;
+    padding: 0 1px;
+    background-color: #ff0000;
+    color: #ffffff;
+}
+.close:hover{
+    cursor: pointer;
+}
+.lastitem{
+    border-bottom: 1px solid grey;
+}
+#totalharga{
+    margin-top: 15px;
+}
+#totalharga span{
+    font-size: 32px;
+}
+input#bayar{
+    width: 60%;
+    display: inline;
+    margin: 0px;
+}
+#dialog div{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+input#btn{
+    margin: 5px 5px 0 0;
+    float: right;
+    display: inline;
+    width: auto;
+    border: 1px solid #1442a3;
+    background-color: #1442a3;
+    color: #ffffff;
+    cursor: pointer;   
+}

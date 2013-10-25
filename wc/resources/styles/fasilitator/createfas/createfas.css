@@ -1,0 +1,17 @@
+h1{
+    font-size: 36px;
+}
+h3{
+    font-size: 26px;
+}
+hr{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#content div div{
+    font-size: 18px;
+    padding: 3px;
+}
+#content div div input{
+    margin: 3px;
+}

@@ -1,0 +1,77 @@
+*
+{
+    font-family: 'Segoe UI';
+    margin: 0px;
+}
+
+#home_info
+{
+	display: table-cell;
+}
+
+.home_picture
+{ 
+	display: table-row;
+}
+
+.home_picture img
+{
+	margin-top: 10px;
+	margin-right: 50px; 
+    width: 300px;
+	height: 250px;
+}
+
+.home_picturedua
+{ 
+	display: table-row;
+}
+
+.home_picturedua img
+{
+	margin-top: 40px;
+	margin-right: 50px; 
+    width: 300px;
+	height: 250px;
+}
+
+#header_home
+{
+	margin-top: 1px;
+    background-color: #13a225;
+    position: absolute;
+    height: 25px;
+    width: 300px;
+    color: white;
+}
+
+#header_homedua
+{
+    background-color: #0000ff;
+    position: absolute;
+    height: 33px;
+    width: 450px;
+    color: white;
+}
+#home
+{
+	display:table;
+}
+
+#info_dua
+{
+	margin-right:255px;
+	float:right;
+}
+
+#info_berita
+{
+	background-color: grey;
+	color:black;
+}
+
+#info_atas
+{
+	background-color: cyan;
+	color:black;
+}
